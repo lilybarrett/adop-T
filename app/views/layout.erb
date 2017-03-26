@@ -10,23 +10,23 @@
   </head>
   <body>
 
-    <div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
-    <button class="menu-icon float-right" type="button" data-toggle></button>
-    <div class="title-bar-title float-left"><a href="/">Small screen logo</a></div>
+    <div class="title-bar" data-responsive-toggle="nav-menu" data-hide-for="medium">
+    <button class="menu-icon float-right" type="button" data-toggle="nav-menu"></button>
+    <div class="title-bar-title"><a href="/"><img src="/images/AdopT.png"/></a></div>
   </div>
 
-  <div class="top-bar" id="menu">
-    <div class="top-bar-left">
-      <h5 class="show-for-medium"><a href="/">Logo goes here</a></h5>
+    <div class="top-bar" id="nav-menu">
+      <div class="top-bar-left hide-for-small-only">
+        <a href="/"><img src="/images/AdopT.png"/></a>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="/mission">Mission</a></li>
+          <li><a href="meet_the_subway_lines">Meet the Subway Lines</a></li>
+          <li><a href="adopt_now">Adopt Now!</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="top-bar-right">
-      <ul class="menu">
-        <li><a href="/mission">Mission</a></li>
-        <li><a href="meet_the_subway_lines">Meet the Subway Lines</a></li>
-        <li><a href="adopt_now">Adopt Now!</a></li>
-      </ul>
-    </div>
-  </div>
 
     <!-- print flash messages -->
     <% flash.each do |type, message| %>
