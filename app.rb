@@ -37,6 +37,11 @@ get "/meet_the_subway_lines" do
   erb :subway_lines
 end
 
+get "/meet_the_subway_lines/:id" do
+  @subway_line = SubwayLine.find(params[:id])
+  erb :subway
+end
+
 get "/adopt_now" do
   erb :adopt_now
 end

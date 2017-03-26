@@ -1,1 +1,7 @@
 <h1>Subway Lines page</h1>
+
+<ul>
+  <% @subway_lines.each do |subway| %>
+    <li><a href="/meet_the_subway_lines/<%= subway.id %>"><%= subway.name %></a></li>
+  <% end %>
+</ul>

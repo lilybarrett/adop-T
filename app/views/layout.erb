@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>AdopT</title>
+
+    <link rel="stylesheet" href="/css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
   </head>
   <body>
 
@@ -19,15 +20,10 @@
       <h5 class="show-for-medium"><a href="/">Logo goes here</a></h5>
     </div>
     <div class="top-bar-right">
-      <ul class="dropdown menu" data-dropdown-menu>
-        <li>
-          <a href="#">Menu</a>
-          <ul class="menu vertical">
-            <li><a href="/mission">Mission</a></li>
-            <li><a href="meet_the_subway_lines">Meet the Subway Lines</a></li>
-            <li><a href="adopt_now">Adopt Now!</a></li>
-          </ul>
-        </li>
+      <ul class="menu">
+        <li><a href="/mission">Mission</a></li>
+        <li><a href="meet_the_subway_lines">Meet the Subway Lines</a></li>
+        <li><a href="adopt_now">Adopt Now!</a></li>
       </ul>
     </div>
   </div>
@@ -42,9 +38,9 @@
     <!-- main content -->
     <%= yield %>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
+    <script src="/js/vendor/jquery.js"></script>
+    <script src="/js/vendor/what-input.js"></script>
+    <script src="/js/vendor/foundation.js"></script>
+    <script src="/js/app.js"></script>
   </body>
 </html>
