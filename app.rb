@@ -45,3 +45,7 @@ end
 get "/adopt_now" do
   erb :adopt_now
 end
+
+get "/get_involved" do
+  erb :get_involved
+end
