@@ -21,11 +21,7 @@ Dir[File.join(File.dirname(__FILE__), 'app', '**', '*.rb')].each do |file|
 end
 
 get '/' do
-  redirect "/home"
-end
-
-get "/home" do
-  erb :home
+  redirect "/mission"
 end
 
 get "/mission" do

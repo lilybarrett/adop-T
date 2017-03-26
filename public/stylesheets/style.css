@@ -3,3 +3,24 @@
   border: 1px solid black;
   margin-left: 5px;
 }
+
+.homepage-div-medium {
+  background-size: cover;
+  background-image: url("/images/blurred_subway.jpeg");
+  height: 35rem;
+}
+
+.homepage-div-medium .text-div {
+  margin-top: 20%;
+}
+
+.homepage-div-small {
+  background-size: cover;
+  background-image: url("/images/blurred_subway.jpeg");
+  height: 15rem;
+}
+
+.homepage-div-small .text-div {
+  margin-top: 7%;
+  color; white;
+}
