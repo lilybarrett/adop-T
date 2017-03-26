@@ -6,21 +6,23 @@
 
 .homepage-div-medium {
   background-size: cover;
-  background-image: url("/images/blurred_subway.jpeg");
+  background-image: url("/images/happy-man-on-train.jpeg");
   height: 35rem;
 }
 
 .homepage-div-medium .text-div {
-  margin-top: 20%;
+  margin-top: 13%;
+  color: mediumBlue;
+  font-size: 30px;
 }
 
 .homepage-div-small {
   background-size: cover;
-  background-image: url("/images/blurred_subway.jpeg");
+  background-image: url("/images/happy-man-on-train.jpeg");
   height: 15rem;
 }
 
 .homepage-div-small .text-div {
-  margin-top: 7%;
-  color; white;
+  margin-top: 5%;
+  color: mediumBlue;
 }
