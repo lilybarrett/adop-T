@@ -10,6 +10,17 @@
   font-style: Tahoma,Verdana,Helvetica,Arial;
 }
 
+.adopt-now {
+  background-color: #ff9933;
+  padding: 3rem 4rem;
+  font-size: 50px;
+  margin-top: 2rem;
+}
+
+.adopt-now:hover {
+  background-color: #ff9933;
+}
+
 .homepage-div-medium {
   background-size: cover;
   background-image: url("/images/happy-man-on-train.jpeg");
