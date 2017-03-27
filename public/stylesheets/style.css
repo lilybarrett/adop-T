@@ -66,3 +66,34 @@
   padding: 1.5rem;
   margin: 2rem 1rem 0 1rem;
 }
+
+.april-foolz .hide-for-small-only {
+  font-size: 15rem;
+  color: red;
+  font-family: 'Indie Flower', cursive;
+}
+
+.april-foolz .show-for-small-only {
+  font-size: 5rem;
+  color: red;
+  font-family: 'Indie Flower', cursive;
+}
+
+.take-the-plunge {
+  margin-top: 1rem;
+  border: 3px solid #0099ff;
+  margin: 2rem 1rem 0 1rem;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+form label {
+  color: #0099ff;
+  font-size: 1rem;
+}
+
+#perfect-owners {
+  color: #0099ff;
+}
