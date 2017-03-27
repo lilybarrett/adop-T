@@ -28,7 +28,7 @@ get "/mission" do
   erb :mission
 end
 
-get "/meet_the_subway_lines" do
+get "/meet_our_subway_lines" do
   @subway_lines = SubwayLine.all
   erb :subway_lines
 end
