@@ -2,6 +2,6 @@
 
 <ul>
   <% @subway_lines.each do |subway| %>
-    <li><a href="/meet_the_subway_lines/<%= subway.id %>"><%= subway.name %></a></li>
+    <li><%= subway.name %></li>
   <% end %>
 </ul>
