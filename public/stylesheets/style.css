@@ -1,7 +1,12 @@
 .menu > li > a {
-  color: black;
-  border: 1px solid black;
+  color: white;
+  border: 1px solid white;
   margin-left: 5px;
+}
+
+.top-bar {
+  padding: 0.7rem;
+  background-color: #0099ff;
 }
 
 .homepage-div-medium {
@@ -12,8 +17,8 @@
 
 .homepage-div-medium .text-div {
   margin-top: 13%;
-  color: mediumBlue;
-  font-size: 30px;
+  color: black;
+  font-size: 35px;
 }
 
 .homepage-div-small {
@@ -24,5 +29,5 @@
 
 .homepage-div-small .text-div {
   margin-top: 5%;
-  color: mediumBlue;
+  color: black;
 }
