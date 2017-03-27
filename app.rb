@@ -40,3 +40,7 @@ end
 get "/get_involved" do
   erb :get_involved
 end
+
+get "/april_fools" do
+  erb :april_fools
+end
