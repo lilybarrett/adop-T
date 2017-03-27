@@ -12,13 +12,19 @@
 
 .adopt-now {
   background-color: #ff9933;
-  padding: 3rem 4rem;
+  padding: 2rem 3rem;
   font-size: 50px;
   margin-top: 2rem;
+  border-radius: 30px;
 }
 
 .adopt-now:hover {
   background-color: #ff9933;
+}
+
+.adopt-now-row {
+  background-color: #0099ff;
+  padding-bottom: 100%;
 }
 
 .homepage-div-medium {
