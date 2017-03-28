@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20170324010937) do
     t.string "name",        null: false
     t.text   "description", null: false
     t.string "ideal_owner", null: false
+    t.string "image_url"
   end
 
 end

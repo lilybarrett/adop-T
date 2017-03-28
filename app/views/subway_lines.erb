@@ -1,7 +1,27 @@
-<h1>Subway Lines page</h1>
+<div class="row">
+  <div class="small-12 small-centered columns text-center">
+    <h3 class="subway-lines-title">Meet Our Subway Lines!</h3>
+  </div>
+</div>
 
-<ul>
-  <% @subway_lines.each do |subway| %>
-    <li><%= subway.name %></li>
-  <% end %>
-</ul>
+<% @subway_lines.each do |subway| %>
+
+  <div class="row">
+    <div class="small-8 small-centered columns subway-image hide-for-small-only">
+      <img src="/images/<%= subway.image_url %>" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 small-centered columns subway-image show-for-small-only">
+      <img src="/images/<%= subway.image_url %>" />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 small-centered columns">
+      <p><%= subway.description %></p>
+      <p>Ideal Owner: <%= subway.ideal_owner %></p>
+    </div>
+  </div>
+
+<% end %>
