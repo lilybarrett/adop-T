@@ -102,8 +102,8 @@
 
 .april-foolz-explanation {
   padding: 1.5rem;
-  margin: 2rem 1rem 10rem 1rem;
-  border: 3px solid #0099ff;
+  background-color: #0099ff;
+  color: white;
 }
 
 .take-the-plunge {
