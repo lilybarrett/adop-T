@@ -1,76 +1,140 @@
 <div class="row take-the-plunge ">
-  <div class="small-12 small-centered columns">
+  <div class="small-12 small-centered columns text-center">
     <p>We see you’ve decided to help us out!</p>
     <p>We take this <span id="perfect-owners">verrrry</span> extremely seriously and match subway lines with <span id="perfect-owners">ONLY THE MOST PERFECT OWNERS AND VOLUNTEERS</span> based on a rigorous application process and personality assessment:</p>
   </div>
 </div>
 
 <form action="/april_fools" method="get">
-  <div class="row">
-    <div class="small-12 columns">
-      <label><strong>The color of your lightsaber would be:</strong></label>
+  <div class="answer-container">
+    <div class="row">
+      <div class="small-12 columns">
+        <label><h5>The color of your lightsaber would be:</h5></label>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="small-12 columns">
-      <select name="lightsaber">
-       <option value="blue">Blue</option>
-       <option value="green">Green</option>
-       <option value="red">Red</option>
-       <option value="other">Other</option>
-     </select>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="lightsaber" value="Blue" id="lightsaberBlue">
+        <label for="lightsaberblue">Blue</label>
+      </div>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="small-12 columns">
-      <label><strong>If you were one of the undead, you would be a(n):</strong></label>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="lightsaber" value="Green" id="lightsaberGreen">
+        <label for="lightsaberGreen">Green</label>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="small-12 columns">
-      <select name="undead">
-       <option value="zombie">Zombie</option>
-       <option value="mummy">Mummy</option>
-       <option value="vampire">Vampire</option>
-       <option value="ghost">Ghost</option>
-     </select>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="lightsaber" value="Red" id="lightsaberRed">
+        <label for="lightsaberRed">Red</label>
+      </div>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="small-12 columns">
-      <label><strong>If you could only eat ONE type of chocolate for the rest of your life, it would be:</strong></label>
-    </div>
-  </div>
-  <div class="row">
-    <div class="small-12 columns">
-      <select name="chocolate">
-       <option value="milk">Milk</option>
-       <option value="dark">Dark</option>
-       <option value="white">White</option>
-       <option value="no-like">I'm one of those mutants who doesn't like chocolate</option>
-     </select>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="lightsaber" value="Other" id="lightsaberOther">
+        <label for="lightsaberOther">Other</label>
+      </div>
     </div>
   </div>
 
-  <div class="row">
-    <div class="small-12 columns">
-      <label><strong>If you could celebrate one of these holidays EVERY DAY, it would be:</strong></label>
+  <div class="answer-container">
+    <div class="row">
+      <div class="small-12 columns">
+        <label><h5>If you were one of the undead, you would be:</h5></label>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="small-12 columns">
-      <select name="holiday">
-       <option value="halloween">Halloween</option>
-       <option value="st-patrick">St. Patrick's Day</option>
-       <option value="thanksgiving">Thanksgiving</option>
-       <option value="independence">Independence Day</option>
-     </select>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="undead" value="Zombie" id="undeadZombie">
+        <label for="undeadZombie">Zombie</label>
+      </div>
+    </div>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="undead" value="Mummy" id="undeadMummy">
+        <label for="undeadMummy">Mummy</label>
+      </div>
+    </div>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="undead" value="Vampire" id="undeadVampire">
+        <label for="undeadVampire">Vampire</label>
+      </div>
+    </div>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="undead" value="Ghost" id="undeadGhost">
+        <label for="undeadGhost">Ghost</label>
+      </div>
     </div>
   </div>
 
-  <div class="small-12 small-centered columns">
-    <input type="submit" class="button small" />
+  <div class="answer-container">
+    <div class="row">
+      <div class="small-12 columns">
+        <label><h5>If you could only eat ONE type of chocolate for the rest of your life, it would be:</h5></label>
+      </div>
+    </div>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="chocolate" value="Milk" id="chocolateMilk">
+        <label for="chocolateMilk">Milk</label>
+      </div>
+    </div>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="chocolate" value="Dark" id="chocolateDark">
+        <label for="chocolateDark">Dark</label>
+      </div>
+    </div>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="chocolate" value="White" id="chocolateWhite">
+        <label for="chocolateWhite">White</label>
+      </div>
+    </div>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="chocolate" value="Other" id="chocolateOther">
+        <label for="chocolateOther">I'm one of those mutants who doesn't like chocolate</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="answer-container">
+    <div class="row">
+      <div class="small-12 columns">
+        <label><h5>If you could celebrate one of these holidays EVERY DAY, it would be:</h5></label>
+      </div>
+    </div>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="holiday" value="Halloween" id="holidayHalloween">
+        <label for="holidayHalloween">Halloween</label>
+      </div>
+    </div>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="holiday" value="St-Patrick" id="holidaySt-Patrick">
+        <label for="holidaySt-Patrick">St. Patrick's Day</label>
+      </div>
+    </div>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="holiday" value="Thanksgiving" id="holidayThanksgiving">
+        <label for="holidayThanksgiving">Thanksgiving</label>
+      </div>
+    </div>
+    <div class="answer row">
+      <div class="small-12 columns">
+        <input type="radio" name="holiday" value="Independnece" id="holidayIndependnece">
+        <label for="holidayIndependnece">Independence Day</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="small-12 small-centered columns text-center">
+    <input type="submit" class="button submit-button small" />
   </div>
 </form>
