@@ -4,6 +4,7 @@ class CreateSubwayLines < ActiveRecord::Migration
       t.string :name, null: false
       t.text :description, null: false
       t.string :ideal_owner, null: false
-    end 
+      t.string :image_url
+    end
   end
 end

@@ -141,3 +141,12 @@ form label {
 #perfect-owners {
   color: #0099ff;
 }
+
+.subway-lines-title {
+  color: #0099ff;
+  margin-top: 1rem;
+}
+
+/*.subway-image .hide-for-small-only img {
+  height: 5px;
+}*/
