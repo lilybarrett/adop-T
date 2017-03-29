@@ -8,6 +8,6 @@ SubwayLine.create({name: "Green Line", description: "The Green Line is gregariou
 
 SubwayLine.create({name: "Red Line", description: "Meet the adorable Red Line! Want a loyal pal that loves books, craft beers, and St. Patty’s Day parades? They’re looking for a caring home – could they find a place in yours?", ideal_owner: "Harvard Professor", image_url: 'red_line.jpg'})
 
-SubwayLine.create({name: "Orange Line", description: "You’ve got a friend for life in the quirky and fun Orange Line! Just right for a serious artist or conscientious nonprofit employee. Bonus if you love dogs and live music.", ideal_owner: "Casual Jazz Musician"})
+SubwayLine.create({name: "Orange Line", description: "You’ve got a friend for life in the quirky and fun Orange Line! Just right for a serious artist or conscientious nonprofit employee. Bonus if you love dogs and live music.", ideal_owner: "Casual Jazz Musician", image_url: 'orange_line.jpg'})
 
-SubwayLine.create({name: "Blue Line", description: "The Blue Line loves delicious food and playing “go fetch” on the beach! Looking for a fellow beach bum for laughter, cuddles and scraps from the dinner table!", ideal_owner: "Beach Lover"})
+SubwayLine.create({name: "Blue Line", description: "The Blue Line loves delicious food and playing “go fetch” on the beach! Looking for a fellow beach bum for laughter, cuddles and scraps from the dinner table!", ideal_owner: "Beach Lover", image_url: 'blue_line.jpg'})
