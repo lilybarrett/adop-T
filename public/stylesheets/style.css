@@ -128,7 +128,7 @@ form .answer {
 }
 
 .answer-container {
-  border: 10px solid #0099ff;
+  border: 5px solid #0099ff;
   padding: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -152,12 +152,12 @@ form label {
 }
 
 .subway-image {
-  border: 10px solid #0099ff;
+  border: 3px solid #0099ff;
   padding: 1rem;
 }
 
 .subway-text {
-  background-color: #0099ff;
-  color: white;
+  background-color: white;
+  color: #0099ff;
   padding: 0.5rem;
 }
