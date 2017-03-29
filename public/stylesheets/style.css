@@ -92,6 +92,10 @@
   margin: 2rem 1rem 10rem 1rem;
 }
 
+.get-involved-page h2, h3 {
+  color: #0099ff;
+}
+
 .april-foolz .hide-for-small-only {
   font-size: 10rem;
   color: red;
@@ -147,6 +151,13 @@ form label {
   margin-top: 1rem;
 }
 
-/*.subway-image .hide-for-small-only img {
-  height: 5px;
-}*/
+.subway-image {
+  border: 10px solid #0099ff;
+  padding: 1rem;
+}
+
+.subway-text {
+  background-color: #0099ff;
+  color: white;
+  padding: 0.5rem;
+}
