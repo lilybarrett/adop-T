@@ -7,20 +7,18 @@
 <% @subway_lines.each do |subway| %>
 
   <div class="row">
-    <div class="small-8 small-centered columns subway-image hide-for-small-only">
+    <div class="medium-8 medium-centered small-12 small-centered columns subway-image">
       <img src="/images/<%= subway.image_url %>" />
     </div>
   </div>
   <div class="row">
-    <div class="small-12 small-centered columns subway-image show-for-small-only">
-      <img src="/images/<%= subway.image_url %>" />
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="small-12 small-centered columns">
+    <div class="medium-8 medium-centered small-12 small-centered columns subway-text">
       <p><%= subway.description %></p>
-      <p>Ideal Owner: <%= subway.ideal_owner %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-8 medium-centered small-12 small-centered columns subway-text text-center">
+      <a href="/adopt_now" class="button small adopt-now">Apply Now!</a>
     </div>
   </div>
 
