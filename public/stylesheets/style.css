@@ -55,7 +55,7 @@ body {
 
 .homepage-div-medium .text-div {
   margin-top: 13%;
-  color: #0099ff;
+  color: black;
   font-size: 35px;
 }
 
@@ -96,7 +96,11 @@ body {
   margin: 2rem 1rem 10rem 1rem;
 }
 
-.get-involved-page h2, h3 {
+.get-involved-page h2 {
+  color: #0099ff;
+}
+
+.get-involved-page h3 {
   color: #0099ff;
 }
 
